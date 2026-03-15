@@ -1,5 +1,5 @@
 
-const music = document.getElementById("bgMusic");
+const music = document.getElementById("bgMusic"); 
 
 function startMusic() {
     music.play().catch(() => {});
