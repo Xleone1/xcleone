@@ -1,5 +1,12 @@
 
+const music = document.getElementById("bgMusic");
 
+function startMusic() {
+    music.play().catch(() => {});
+    document.removeEventListener("click", startMusic);
+}
+
+document.addEventListener("click", startMusic);
 
 function toggleReason(index) {
     const reasons = document.querySelectorAll(".reasons p");
