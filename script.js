@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-const countDownDate = new Date("2025-06-21T00:00:00").getTime();
+const countDownDate = new Date("2026-06-21T00:00:00").getTime();
 
 let x = setInterval(function () {
     const now = new Date().getTime();
